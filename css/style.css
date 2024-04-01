@@ -1,0 +1,96 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Source Sans 3';
+}
+a {
+    text-decoration: none; /*удаляет подчеркивание текста по умолчанию. (из-за <a>*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header START */
+.header-top {
+    background-color: #2378C9;
+    padding: 14px 0; /*14px верх-низ, 0 лево-право*/
+}
+.header-top-row {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header-top-row a {
+    color: #fff;
+}
+.header-top-location {
+    display: flex;
+    align-items: center;
+}
+.header-top-location img{
+    margin-right: 14px;
+}
+.header-top-right {
+    display: flex; /*превращает в контейнер flexbox.*/
+    align-items: center; /*свойство align-items выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении.*/
+    margin-left: auto; /*чтобы располагался по правому краю*/
+}
+.header-top-phone {
+    margin-right: 40px;
+}
+.header-top-email {
+    margin-right: 55px;
+}
+.header-top-phone, header-top-email {
+    display: flex;
+    align-items: center;
+}
+.header-top-phone img, header-top-email img {
+    margin-right: 14px;
+}
+.header-top-social a {
+    margin-right: 30px;
+}
+/* Header END */
