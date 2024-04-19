@@ -93,4 +93,30 @@ table {
 .header-top-social a {
     margin-right: 30px;
 }
+.header-bottom {
+    padding: 20px 0;
+}
+.header-bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+.menu ul li:nth-last-child(n+2) {
+    margin-right: 40px;
+}
+.menu ul li a {
+    color: #302D2D;
+    font-size: 18px;
+}
+.header-bottom-btn {
+    background-color: #F86D6D;
+    color: #fff;
+    padding: 16px 28px;
+    border-radius: 26px;
+    font-size: 14px;
+}
 /* Header END */
