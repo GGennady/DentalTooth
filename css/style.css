@@ -135,6 +135,7 @@ table {
 	padding: 20px;
 	transition: 0.5s ease;
 	transform: translateX(110%);
+	z-index: 12;
 }
 .mobile-menu.is-active {
 	transform: none;
@@ -182,6 +183,67 @@ table {
 }
 /* Header END */
 
+
+/* Banner START */
+.s-banner {
+	background-color: #0E6EAA;
+	color: #fff;
+}
+.banner-row {
+	display: flex;
+	align-items: center;
+}
+.banner-subtitle {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.banner-title {
+	font-size: 62px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.banner-description {
+	font-size: 18px;
+	line-height: 23px;
+	margin-bottom: 55px;
+}
+.banner-btn {
+	background-color: #5EB8F0;
+	padding: 18px 44px;
+	border-radius: 28px;
+	color: #fff;
+	display: inline-block;
+}
+.banner-left {
+	max-width: 485px;
+
+}
+.banner-right {
+	margin-left: auto;
+}
+.banner-image {
+	margin-left: auto;
+	width: 100%;
+}
+/* Banner END */
+
+/* Footer START */
+.site-footer {
+	background-color: #10406F;
+	color: #fff;
+}
+.footer-left {
+	padding: 65px 0;
+}
+.footer-logo {
+	display: block;
+	margin-bottom: 80px;
+}
+.footer-info-item {
+	margin-bottom: 24px;
+}
+/* Footer END */
+
 /* Responsive START */
 @media screen and (min-width: 992px) {
 	.hamburger {
@@ -197,6 +259,12 @@ table {
 	.header-top-right,
 	.menu-nav {
 		display: none;
+	}
+	.s-banner {
+		padding-top: 40px;
+	}
+	.banner-row {
+		flex-direction: column;
 	}
 }
 @media screen and (max-width: 575px) {
